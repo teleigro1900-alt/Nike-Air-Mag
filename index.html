@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
+    <script type="module" src="./js/index.js"></script>
     <link
       rel="shortcut icon"
       href="./images/nike-favicon.ico"
@@ -11,7 +12,7 @@
     <title>Nike Air Mag</title>
   </head>
   <body class="page__body">
-    <div class="header header--fixed">
+    <div class="header">
       <div class="header__conteiner conteiner">
         <a class="logo header__logo" href="./index.html">
           <img src="./images/icon.svg" width="50" height="18" alt="Логотип" />
@@ -57,23 +58,23 @@
       </div>
     </div>
 
-    <div  class="airmag conteiner">
-      <h2 id="airmag">
+    <div  class="air-mag__conteiner conteiner">
+      <h2 class="air-mag__conteiner-title title-1" id="airmag">
         Air Mag
       </h2>
-      <p>
+      <p class="about-shoe">
         Это не просто кроссовки — это шаг в будущее. 
         С уникальным дизайном и передовыми технологиями, эти кроссовки 
         вдохновлены легендарной киноделией и готовы сопровождать 
         вас в любых приключениях.
       </p>
       <img src="./images/картинка общая 1.png" alt="Кросовки Air Mag ">
-      <ul>
-        <li>
+      <ul class="air-mag__conteiner__card">
+        <li class="air-mag__conteiner__card-properties" >
           инновационная технология амортизации,
           которая обеспечивает непревзойденную поддержу суставов
         </li>
-        <li>
+        <li class="air-mag__conteiner__card-properties">
           высококачественные синтетические материалы
           для долговечности и комфорта
         </li>

@@ -13,6 +13,30 @@
   overflow-y: hidden;
 }
 
+.title-1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 60px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.title-2 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 32px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
+.title-3 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+
 .conteiner {
   width: min(var(--conteiner-width), 100% - var(--conteiner-padding) * 2);
   margin: 0px auto;
