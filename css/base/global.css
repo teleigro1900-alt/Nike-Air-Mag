@@ -1,0 +1,25 @@
+.page {
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--main-color);
+}
+
+.page__body {
+  min-width: 375px;
+  background-color: var(--bg-color);
+}
+
+.page__body--no-scroll {
+  overflow-y: hidden;
+}
+
+.conteiner {
+  width: min(var(--conteiner-width), 100% - var(--conteiner-padding) * 2);
+  margin: 0px auto;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid var(--accent-color);
+  outline-offset: 2px;
+}

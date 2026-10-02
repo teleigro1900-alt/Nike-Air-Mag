@@ -1,0 +1,22 @@
+.header__nav {
+  flex-grow: 1;
+  display: inline-flex;
+  justify-content: start;
+  padding-left: clamp(25px, -185.36px + 21.21vw, 120px);
+  gap: 25px;
+}
+
+.nav__elements {
+  opacity: 0.7;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 130%;
+  color: var(--main-color);
+  transition: color 0.3s;
+}
+
+@media (any-hover: hover) {
+  .nav__elements:hover {
+    color: var(--accent-color);
+  }
+}
