@@ -9,10 +9,10 @@ try {
 
   new BurgerMenu(
     {
-      BURGER: "header__nav",
-      BURGER_OPEN: "header__nav--open",
-      HEADER_MENU: "header__actions-menu",
-      HEADER_MENU_OPEN: "header__actions-menu--open",
+      BURGER: "header__actions-menu",
+      BURGER_OPEN: "header__actions-menu--open",
+      HEADER_MENU: "header__nav",
+      HEADER_MENU_OPEN: "header__nav--open",
       lABEL: {
         OPEN: "Открыть меню",
         CLOSE: "Закрыть меню",
