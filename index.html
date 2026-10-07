@@ -4,13 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/index.css" />
-    <script type="module" src="./js/index.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
     <link
       rel="shortcut icon"
       href="./images/nike-favicon.ico"
       type="image/x-icon" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+      defer></script>
+    <script type="module" src="./js/index.js"></script>
     <title>Nike Air Mag</title>
   </head>
+
   <body class="page__body">
     <div class="header">
       <div class="header__conteiner conteiner">
@@ -19,7 +28,7 @@
         </a>
         <div class="nav header__nav">
           <a class="nav__elements" href="#airmag">Air Mag</a>
-          <a class="nav__elements" href="#">Размеры</a>
+          <a class="nav__elements" href="#sizes">Размеры</a>
           <a class="nav__elements" href="#">Характеристики</a>
           <a class="nav__elements" href="#">Другие ТОП модели</a>
         </div>
@@ -37,8 +46,8 @@
       </div>
     </div>
 
-    <div id="hero" class="hero">
-      <div class="hero__conteiner conteiner">
+    <div id="hero" class="hero conteiner">
+      <div class="hero__conteiner">
         <div class="hero__conteiner-header">
           <div class="hero__conteiner-header__properties">
             стиль <br />
@@ -50,35 +59,81 @@
         </div>
         <img
           class="hero-img"
-          width: 654px;
-          height: 634px;
+          width="654px"
+          height="634px"
           src="./images/картинка общая.png"
           alt="Кросовок Найк Эйр Маг" />
-        <div class="hero__conteiner-footer"><a class="hero__conteiner-footer__details" href="#">Подробнее</a></div>
+        <div class="hero__conteiner-footer">
+          <a class="hero__conteiner-footer__details" href="#">Подробнее</a>
+        </div>
       </div>
     </div>
 
-    <div  class="air-mag__conteiner conteiner">
-      <h2 class="air-mag__conteiner-title title-1" id="airmag">
-        Air Mag
-      </h2>
+    <div class="air-mag__conteiner conteiner">
+      <h2 class="air-mag__conteiner-title title-1" id="airmag">Air Mag</h2>
       <p class="about-shoe">
-        Это не просто кроссовки — это шаг в будущее. 
-        С уникальным дизайном и передовыми технологиями, эти кроссовки 
-        вдохновлены легендарной киноделией и готовы сопровождать 
-        вас в любых приключениях.
+        Это не просто кроссовки — это шаг в будущее. С уникальным дизайном и
+        передовыми технологиями, эти кроссовки вдохновлены легендарной
+        киноделией и готовы сопровождать вас в любых приключениях.
       </p>
-      <img src="./images/картинка общая 1.png" alt="Кросовки Air Mag ">
+      <img src="./images/картинка общая 1.png" alt="Кросовки Air Mag " />
       <ul class="air-mag__conteiner__card">
-        <li class="air-mag__conteiner__card-properties" >
-          инновационная технология амортизации,
-          которая обеспечивает непревзойденную поддержу суставов
+        <li class="air-mag__conteiner__card-properties">
+          инновационная технология амортизации, которая обеспечивает
+          непревзойденную поддержу суставов
         </li>
         <li class="air-mag__conteiner__card-properties">
-          высококачественные синтетические материалы
-          для долговечности и комфорта
+          высококачественные синтетические материалы для долговечности
+          и комфорта
         </li>
       </ul>
+    </div>
+
+    <div id="sizes" class="sizes conteiner">
+      <div class="sizes__conteiner">
+        <h2 class="sizes__title title-1">Размеры</h2>
+        <div class="sizes__swiper-wrapper">
+          <button class="swiper-button-prev sizes__swiper-button-prev"></button>
+          <button class="swiper-button-next sizes__swiper-button-prev"></button>
+          <div class="swiper sizes__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="sizes__swiper-slide">
+                  <picture>
+                    <img
+                      width="357px"
+                      height="357px"
+                      src="./images/slides/slide-1.png"
+                      alt="1" />
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sizes__swiper-slide">
+                  <picture>
+                    <img
+                      width="408px"
+                      height="375px"
+                      src="./images/slides/slide-2.png"
+                      alt="2" />
+                  </picture>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sizes__swiper-slide">
+                  <picture>
+                    <img
+                      width="442px"
+                      height="357px"
+                      src="./images/slides/slide-3.png"
+                      alt="3" />
+                  </picture>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

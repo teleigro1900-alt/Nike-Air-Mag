@@ -1,0 +1,21 @@
+.sizes__swiper-wrapper {
+  border: 2px solid var(--accent-color);
+  border-radius: 12px;
+}
+
+.sizes__swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizes__slider {
+  z-index: 3;
+}
+
+.sizes__swiper-button-prev .sizes__swiper-button-prev {
+  display: block;
+  background-image: url(../../images/swiper-button.svg);
+  width: 40px;
+  height: 40px;
+}
